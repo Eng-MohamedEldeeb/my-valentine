@@ -16,7 +16,7 @@ export default function ValentineCard({ onOpenModal }: Props) {
       <ValentineImage mainImage="/main.jpg" avatar="/avatar.jpg" />
 
       <h1 className="text-2xl sm:text-3xl font-bold text-pink-500 mt-6">
-        Happy Valentine ❤️
+        Happy Valentine Ya 5o5a ❤️
       </h1>
 
       <p className="text-gray-600 text-sm sm:text-lg mt-4">
