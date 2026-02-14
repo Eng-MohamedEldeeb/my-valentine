@@ -32,7 +32,7 @@ export default function ValentinePage() {
       <LoveModal
         open={openModal}
         onClose={() => setOpenModal(false)}
-        backgroundImage="/public/couple.jpg"
+        backgroundImage="/couple.jpg"
       />
     </div>
   );

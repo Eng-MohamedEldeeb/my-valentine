@@ -13,10 +13,7 @@ export default function ValentineCard({ onOpenModal }: Props) {
       transition={{ duration: 1 }}
       className="bg-white shadow-2xl rounded-3xl p-6 sm:p-10 text-center w-full max-w-md"
     >
-      <ValentineImage
-        mainImage="/public/avatar2.jpg"
-        avatar="/public/avatar.jpg"
-      />
+      <ValentineImage mainImage="/main.jpg" avatar="/avatar.jpg" />
 
       <h1 className="text-2xl sm:text-3xl font-bold text-pink-500 mt-6">
         Happy Valentine ❤️
