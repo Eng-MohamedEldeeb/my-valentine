@@ -58,10 +58,19 @@ export default function LoveModal({ open, onClose, backgroundImage }: Props) {
                   transition={{ delay: 0.3 }}
                   className="text-sm sm:text-lg leading-relaxed"
                 >
-                  You are not just part of my life...
-                  <br />
-                  You are my safe place, my happiness, and my favorite person
-                  every single day 💕
+                  <div dir="rtl">
+                    <h2 className="font-bold text-xl">
+                      انتي مش بس جزء من حياتي ...
+                    </h2>
+                    <br />
+                    يا اجمل عيون شافتها عيني و قلبي عاشقها يوماتي 👀💞
+                    <br />
+                    وعشقي كله ليكي من هنا ليوم مماتي 💕
+                    <br />
+                    يا حته نازله من السماء جت تحليلي ايامي 🌚✨
+                    <br />
+                    بحبك يا نور عيني و يا امنية حياتي ♥️🔐
+                  </div>
                 </motion.p>
 
                 <motion.button
