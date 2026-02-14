@@ -29,7 +29,7 @@ export default function ValentineCard({ onOpenModal }: Props) {
         className="mt-6 px-6 py-3 bg-pink-500 text-white rounded-full shadow-lg w-full sm:w-auto"
         onClick={onOpenModal}
       >
-        Open Message 💌
+        <div dir="rtl">هستأذنك تدوسي هنا بجى عشان المفاجأه تكمل 👀💌</div>
       </motion.button>
     </motion.div>
   );
